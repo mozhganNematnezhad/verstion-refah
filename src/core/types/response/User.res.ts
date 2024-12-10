@@ -1,0 +1,48 @@
+import { ICityOrVillageRes } from "../common/common.res";
+
+export interface IuserInfoResponse {
+  lastName: string;
+  fatherName: string;
+  birthCertificateId?: any;
+  nationalCode: string;
+  gender: number;
+  genderTitle: string;
+  educationLevel: number;
+  educationLevelTitle?: any;
+  maritalStatus: number;
+  maritalStatusTitle?: any;
+  dutySystemStatus: number;
+  dutySystemStatusTitle?: any;
+  fieldOfStudy?: any;
+  birthDateShamsi?: any;
+  membershipEndDateShamsi: string;
+  membershipRemainDays: number;
+  resNum: string;
+  membershipStatus: boolean;
+  id: number;
+  userName: string;
+  phoneNumber: string;
+  email: string;
+  natureTypeUser: number;
+  natureTypeUserTitle: string;
+  isAuthorizedUser: boolean;
+  identityUserId: number;
+  name: string;
+  profilePicture?: any;
+  status?: any;
+  statusTitle: string;
+  tellNumber?: any;
+  cityOrVillage: ICityOrVillageRes;
+  cityOrVillageId: number;
+  address: string;
+  lat: number;
+  lng: number;
+  postalCode?: any;
+  webSite?: any;
+  myRefereeCode: string;
+  referee: string;
+  membershipFeeId: number;
+  feeAmount?: any;
+  feeStartDate?: any;
+  feeEndDate?: any;
+}
